@@ -1,9 +1,5 @@
 AOS.init();
 
-$(`#repos`).on('click', () => {
-   alert('teste')
-})
-
 // NOTE Função para criar card com dados do usuário
 let list_user = async () => {
    $(`.content`).html('')
